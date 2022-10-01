@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import {motion} from 'framer-motion'
+import Header from './components/Header'
+import Intro from './components/Intro';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [cursorState, setCursorState] = useState({
+    pageX: 0,
+    pageY: 0
+  })
+
+  useEffect( ()=>{
+    document.addEventListener('mousemove', (e) =>{
+      setCursorState({pageX:e.pageX, pageY:e.pageY})
+    })
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header />
+      <Intro />
+      <AboutMe />
+      <Projects cursorState={cursorState}/>
     </div>
   );
 }

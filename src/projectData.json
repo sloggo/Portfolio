@@ -1,0 +1,13 @@
+[
+    {
+        "title":"ToDo List",
+        "desc":"A full To-do list application with local storage in plain javascript.",
+        "img":"./Todo.png"
+    },
+
+    {
+        "title":"Etch A Sketch",
+        "desc":"Dynamic Etch a Sketch using plain Javascipt.",
+        "img":"./Etch-a-Sketch.png"
+    }
+]
