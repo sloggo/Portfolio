@@ -12,7 +12,7 @@ export default function Projects(props){
                 <h1 className="aboutme-title">Here are some things I've worked on;</h1>
 
                 <div className="projects-container">
-                    {projects.map((item, itemIndex) => <Project cursorState={props.cursorState} project={item}  multiplier={(itemIndex+1) *0.7}></Project>)}
+                    {projects.map((item, itemIndex) => <Project cursorState={props.cursorState} project={item}  multiplier={(itemIndex+1) *.5}></Project>)}
                 </div>
             </div>
         </a>
