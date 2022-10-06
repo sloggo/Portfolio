@@ -100,6 +100,7 @@ a{
 
 .aboutme-title{
   font-size: 3rem;
+  padding-bottom: 30px;
 }
 
 .spindle-container{
@@ -231,10 +232,20 @@ a{
 .project-language-icon{
   width: 5vh;
 }
+.project-language-label{
+  color: black;
+}
 
 .project-languages{
   display: flex;
   gap: 15px;
+}
+
+.project-language-icon-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-text-bottom{

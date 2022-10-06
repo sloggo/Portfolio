@@ -13,7 +13,9 @@ function App() {
 
   useEffect( ()=>{
     document.addEventListener('mousemove', (e) =>{
-      setCursorState({pageX:e.pageX, pageY:e.pageY})
+      if(e.screenX > 0 && e.screenY > 0){
+        setCursorState({pageX:Math.abs(e.screenX), pageY:Math.abs(e.screenY)})
+      }
     })
   }, [])
 

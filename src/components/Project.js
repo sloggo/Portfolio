@@ -3,7 +3,7 @@ import LanguageIcon from './LanguageIcon'
 
 export default function Project(props){
     return(
-        <motion.div animate={{rotateY:((-(window.innerHeight / 100) - props.cursorState.pageX/200)), rotateX:((window.innerWidth / 80) - props.cursorState.pageY/100) / props.multiplier}} className="project">
+        <motion.div animate={{rotateY:Math.abs(props.cursorState.pageX * 0.01), rotateX:Math.abs(props.cursorState.pageY *0.01)}} className="project">
             <motion.img className="project-preview" src={props.project.img}></motion.img>
 
             <div className='project-text'>
@@ -23,12 +23,12 @@ export default function Project(props){
                     </div>
 
                     <div className='project-links'>
-                        <a className="project-repo-container" href={props.project.repo}>
+                        <a target="_blank" className="project-repo-container" href={props.project.repo}>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                             <p>Github Repo</p>
                         </a>
 
-                        <a className="project-live-container" href={props.project.live}>
+                        <a target="_blank" className="project-live-container" href={props.project.live}>
                             <img src="./external-link.svg" />
                             <p>Live Demo</p>
                         </a>

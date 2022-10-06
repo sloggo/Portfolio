@@ -1,5 +1,8 @@
 export default function LanguageIcon(props){
     return(
-          <img src={props.language.src} className="project-language-icon"></img>
+        <div className="project-language-icon-container">
+            <img src={props.language.src} className="project-language-icon"></img>
+            <p className="project-language-label">{props.language.id}</p>
+        </div>
     )
 }

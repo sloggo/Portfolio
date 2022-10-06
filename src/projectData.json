@@ -8,17 +8,17 @@
         "live": "https://sloggo.github.io/todo-list/",
         "languages": [
             {
-                "id": "html",
+                "id": "HTML",
                 "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
             },
 
             {
-                "id": "css",
+                "id": "CSS",
                 "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
             },
 
             {
-                "id": "js",
+                "id": "Javascript",
                 "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
             }
         ]
@@ -27,23 +27,23 @@
     {
         "title":"Etch A Sketch",
         "desc":"Dynamic Etch a Sketch using plain Javascipt.",
-        "features": ["Functional search bar", "Sorting tabs", "Dynamic layout using CSS grid", "Working percentage tracker", "Local storage"],
+        "features": ["Resizable grid", "Colour Picker", "Colour randomiser"],
         "img":"./Etch-a-Sketch.png",
-        "repo": "https://github.com/sloggo/todo-list",
-        "live": "https://sloggo.github.io/todo-list/",
+        "repo": "https://github.com/sloggo/etch-a-sketch-odin",
+        "live": "https://sloggo.github.io/etch-a-sketch-odin/",
         "languages": [
             {
-                "id": "html",
+                "id": "HTML",
                 "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
             },
 
             {
-                "id": "css",
+                "id": "CSS",
                 "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
             },
 
             {
-                "id": "js",
+                "id": "Javascript",
                 "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
             }
         ]
