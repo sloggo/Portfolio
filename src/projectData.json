@@ -1,5 +1,80 @@
 [
     {
+        "title":"Monopoly Online",
+        "desc":"A fullstack Monopoly clone written in React and NodeJS; Demonstration videos available at the REPO.",
+        "features": ["Fullstack Server and Database", "Online Multiplayer", "2D Responsive Gameworld", "Client Server Communication"],
+        "img":"./Monopoly.png",
+        "repo": "https://github.com/sloggo/monopoly-online",
+        "languages": [
+            {
+                "id": "HTML",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            },
+
+            {
+                "id": "CSS",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            },
+
+            {
+                "id": "Javascript",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            }
+        ]
+    },
+
+    {
+        "title":"Instagram Clone",
+        "desc":"A frontend Instagram clone.",
+        "features": ["Aesthetically Pleasing Design", "Dynamic React Rendering", "Sign-in With Google", "Firebase Communication", "Structured Databases", "User Profiles"],
+        "img":"./Instagram.png",
+        "repo": "https://github.com/sloggo/instagram-clone",
+        "live": "https://sloggo.github.io/instagram-clone/",
+
+        "languages": [
+            {
+                "id": "HTML",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            },
+
+            {
+                "id": "CSS",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            },
+
+            {
+                "id": "Javascript",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            }
+        ]
+    },
+
+    {
+        "title":"UNO",
+        "desc":"Full UNO recreation through React, with data analysis inbuilt. Built for my LC Computer Science Project.",
+        "features": ["Full UNO functionality", "Inbuilt data visualisation", "Exportable data", "Simulation, Multiplayer and Singleplayer"],
+        "img":"./UNO.png",
+        "repo": "https://github.com/sloggo/UNO",
+        "live": "https://sloggo.github.io/UNO/",
+        "languages": [
+            {
+                "id": "HTML",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            },
+
+            {
+                "id": "CSS",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            },
+
+            {
+                "id": "Javascript",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            }
+        ]
+    },
+
+    {
         "title":"ToDo List",
         "desc":"A full To-do list application with local storage in plain javascript.",
         "features": ["Functional search bar", "Sorting tabs", "Dynamic layout using CSS grid", "Working percentage tracker", "Local storage"],

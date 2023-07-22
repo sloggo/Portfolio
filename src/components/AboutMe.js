@@ -13,17 +13,12 @@ export default function AboutMe(){
 
                     <motion.div initial={{y: -50, opacity: 0}} whileInView={{y: 0, opacity:1}} className='aboutme-card'>
                         <h2 className='aboutme-card-header'>Who am I?</h2>
-                        <p>Placeholder</p>
+                        <p>An 18 year old web developer from Ireland.</p>
                     </motion.div>
 
                     <motion.div initial={{y: -50, opacity: 0}} whileInView={{y: 0, opacity:1}} className='aboutme-card'>
                         <h2 className='aboutme-card-header'>Skills</h2>
-                        <p>Placeholder</p>
-                    </motion.div>
-
-                    <motion.div initial={{y: -50, opacity: 0}} whileInView={{y: 0, opacity:1}} className='aboutme-card'>
-                        <h2 className='aboutme-card-header'>Skills</h2>
-                        <p>Placeholder</p>
+                        <p>Self-taught web developer with a wide range of skills and proficiencies in the areas shown above; mainly in HTML, CSS and Javascript.</p>
                     </motion.div>
 
                 </motion.div>
